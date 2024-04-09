@@ -48,10 +48,12 @@ darkmode: false
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Java / Spring 기반의 12년차 서버 백엔드 개발자 입니다.<br/>
-  이커머스 위에프에서 상품개발팀 팀장 역할을 하며 일 평균 1,500만 판매업체의 상품 등록/수정 트래픽과<br/>
-  5,000만 건의 사용자 상품 조회 트래픽, 10억건의 상품 데이터를 안정적으로 서비스를 제공하기 위해<br/>
-  팀 구성원과 함께 노력하고 있습니다.
+  Java / Spring 기반의 13년차 서버 백엔드 개발자 입니다.<br/>
+  이커머스 위에프에서 상품개발팀 팀장 역할을 하며 일 평균 1,000만 판매업체의 상품 등록/수정 트래픽과<br/>
+  5,000만 건의 사용자 상품 조회 트래픽, 10억건의 상품 데이터를 안정적으로 서비스를 제공하기 위해 노력하였습니다.<br/>
+  <br/>
+  지금은 카쉐어링 그린카에서 Backend파트 파트리더 역할을 하며 8,000대 정도되는 공유차량의 가동률을 높이고<br/>
+  안정적인 서비스를 고객들에게 제공하기 위해 파트 구성원과 함께 노력하고 있습니다.
 
 content:
   - title: Experience # Title for the section
