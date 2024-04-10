@@ -60,9 +60,24 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: 그린카
+        sub_title: Java Back-end Engineer / 파트리더
+        caption: 2023. 12 ~ 현재
+        quote: >
+          Backend파트
+        description: | # this will include new lines to allow paragraphs
+          - 코드 컨벤션 정의
+          - Git 브랜치 전략 변경
+          - 백엔드 API 공통 템플릿 개발
+          - 그린카 -> 롯데렌터카 앱 차량 노출 프로젝트 리딩
+          - Jira 요청 내용 확인
+          - 백오피스 문의 대응
+          - 모니터링 및 장애 대응
+          - 히스토리 문서 작성
+      - layout: left
         title: 위메프
-        sub_title: Java Back-end Engineer
-        caption: 2019. 12 ~ 현재
+        sub_title: Java Back-end Engineer / 팀장
+        caption: 2019. 12 ~ 2023. 11
         quote: >
           상품개발팀
         description: | # this will include new lines to allow paragraphs
@@ -91,6 +106,18 @@ content:
           - 일진그룹 ERP 운영 프로젝트
           - 일진 디스플레이 EDI 프로젝트
 
+  - title: 그린카 - 상세 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 그린카 - 롯데렌터카 차량 연동 프로젝트
+        caption: 2024.02 ~ 2024.03
+        sub_title: 파트리더(프로젝트 리딩)
+        description: | # this will include new lines to allow paragraphs
+          - 모회사 롯데렌터카 앱에 그린카 차량 노출을 위한 프로젝트
+          - 아키텍쳐 설계
+          - 롯데렌터카 담당자 커뮤니케이션
+          - 프로젝트 문서 정리
   - title: 위메프 - 상세 # Title for the section
     layout: list # Type of content section (list/text)
     content:
