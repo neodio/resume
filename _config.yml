@@ -66,14 +66,13 @@ content:
         quote: >
           Backend파트
         description: | # this will include new lines to allow paragraphs
-          - 코드 컨벤션 정의
-          - Git 브랜치 전략 변경
-          - 백엔드 API 공통 템플릿 개발
-          - 그린카 -> 롯데렌터카 앱 차량 노출 프로젝트 리딩
-          - Jira 요청 내용 확인
+          - 그린카 APP에 제공하는 API 개발 및 운영
+          - 백오피스 API, 화면 개발 및 유지보수
+          - 프로젝트 리딩, 설계, 개발
+          - Jira 요청 대응
           - 백오피스 문의 대응
           - 모니터링 및 장애 대응
-          - 히스토리 문서 작성
+          - Confluence 히스토리 문서 작성
       - layout: left
         title: 위메프
         sub_title: Java Back-end Engineer / 팀장
@@ -110,14 +109,48 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 그린카 - 롯데렌터카 차량 연동 프로젝트
-        caption: 2024.02 ~ 2024.03
-        sub_title: 파트리더(프로젝트 리딩)
+        title: 네이버지도, 카카오맵 그린카 차고지 정보 연동
+        caption: 2024.12 ~ 2024.12
+        sub_title: 네이버지도와 카카오맵에 그린카의 차고지가 검색되도록 하여 고객에게 정보제공
         description: | # this will include new lines to allow paragraphs
-          - 모회사 롯데렌터카 앱에 그린카 차량 노출을 위한 프로젝트
-          - 아키텍쳐 설계
-          - 롯데렌터카 담당자 커뮤니케이션
-          - 프로젝트 문서 정리
+          - 카카오맵에 데이터 제공 API 개발
+          - 네이버 플레이스API에 전송하는 배치 개발
+          - 각 사 담당자와 커뮤니케이션
+          - 효과 : 네이버, 카카오맵 검색 시, 그린카 차고지 노출(G car zone)
+      - layout: left
+        title: 그린카 – 쿠콘 솔루션 주유비 사용내역 연동
+        caption: 2024.10 ~ 2024.10
+        sub_title: 쿠콘 솔루션을 통해 주유카드의 승인내역을 고객 부정주유 감시 및 재무파트에 데이터 제공
+        description: | # this will include new lines to allow paragraphs
+          - 배치를 통하여 그린카에 데이터 구조에 맞게 가공
+          - 차량 및 대여건과 연결로직 구현
+          - 가공된 데이터를 사용자들이 확인 할 수 있도록 백오피스 화면 구현
+          - 효과 : 고객 부정주유 감시 기능 제공
+      - layout: left
+        title: 그린카 장기 대여 프로젝트(G car M)
+        caption: 2024.07 ~ 2024.08
+        sub_title: 경쟁사 쏘카를 벤치마킹하여 한달 이상 대여 기능 추가
+        description: | # this will include new lines to allow paragraphs
+          - 개발 리딩 및 개발인원 역할 분배
+          - 각종 알림톡 기능 개발
+          - 앱에서 사용하는 API 개발
+          - 효과 : 월 50 건 이상 계약하여 매출 증대
+      - layout: left
+        title: 그린카 - 롯데카드 카드상태 연동
+        caption: 2024.05 ~ 2024.05
+        sub_title: 그린카 주유카드의 상태를 롯데카드와 연동하여 업무 효율화
+        description: | # this will include new lines to allow paragraphs
+          - 문제점 : 차량이 장기 정비나 매각할 경우, 주유카드를 정지/탈회 시킬 때마다 이메일로 요청하여 연동
+          - 그린카 백오피스와 롯데카드 인터페이스 영역 개발
+          - 효과 : 월 8시간 현업 업무 단축 예상
+      - layout: left
+        title: 개발 문화 향상
+        caption: 2023.12 ~
+        sub_title: 개발 문화 리딩
+        description: | # this will include new lines to allow paragraphs
+          - 코드 컨벤션 정의
+          - Git 브랜치 전략 변경
+          - 백엔드 API 공통 템플릿 제안
   - title: 위메프 - 상세 # Title for the section
     layout: list # Type of content section (list/text)
     content:
